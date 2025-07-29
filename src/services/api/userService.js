@@ -58,6 +58,37 @@ class UserService {
     user.enrolledCourses = user.enrolledCourses.filter(id => id !== parseInt(courseId));
     return { ...user };
   }
+
+  async registerUser(userData) {
+    await delay(500);
+    
+    // Check if email already exists
+    const existingUser = usersData.find(user => user.email === userData.email);
+    if (existingUser) {
+      throw new Error("이미 사용 중인 이메일입니다.");
+    }
+
+    // Generate new ID
+    const newId = Math.max(...usersData.map(user => user.Id), 0) + 1;
+    
+    // Create new user object
+    const newUser = {
+      Id: newId,
+      name: userData.fullName,
+      email: userData.email,
+      password: userData.password, // In real app, this would be hashed
+      membershipTier: userData.membershipTier,
+      enrolledCourses: [],
+      profileImage: null,
+      joinDate: new Date().toISOString(),
+      acceptedTerms: userData.acceptTerms
+    };
+
+    // Add to mock data
+    usersData.push(newUser);
+    
+    return { ...newUser };
+  }
 }
 
 export default new UserService();
