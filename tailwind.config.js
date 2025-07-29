@@ -37,8 +37,9 @@ export default {
           600: '#475569',
           700: '#334155',
           800: '#1e293b',
-          900: '#0f172a',
-        }
+900: '#0f172a',
+        },
+        border: '#e2e8f0', // gray-200 for consistent borders
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
