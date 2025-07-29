@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { toast } from "react-toastify";
-import { userService } from "@/services/api/userService";
+import userService from "@/services/api/userService";
 import ApperIcon from "@/components/ApperIcon";
 import Input from "@/components/atoms/Input";
 import Button from "@/components/atoms/Button";
