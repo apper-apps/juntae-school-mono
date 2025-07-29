@@ -1,0 +1,32 @@
+[
+  {
+    "label": "홈",
+    "path": "/",
+    "icon": "Home",
+    "isActive": false
+  },
+  {
+    "label": "강의",
+    "path": "/courses",
+    "icon": "BookOpen",
+    "isActive": false
+  },
+  {
+    "label": "멤버십",
+    "path": "/membership",
+    "icon": "Crown",
+    "isActive": false
+  },
+  {
+    "label": "대시보드",
+    "path": "/dashboard",
+    "icon": "BarChart3",
+    "isActive": false
+  },
+  {
+    "label": "내 계정",
+    "path": "/my-account",
+    "icon": "User",
+    "isActive": false
+  }
+]

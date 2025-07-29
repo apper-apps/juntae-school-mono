@@ -1,0 +1,56 @@
+[
+  {
+    "Id": 1,
+    "title": "React 완전정복",
+    "description": "React의 기초부터 고급 기능까지 체계적으로 학습하는 완벽한 강의입니다.",
+    "instructor": "김준태",
+    "thumbnail": "/images/react-course.jpg",
+    "duration": "12주",
+    "enrollmentCount": 1250
+  },
+  {
+    "Id": 2,
+    "title": "Python 데이터 분석",
+    "description": "Python을 활용한 데이터 분석 기법을 실습을 통해 배워보세요.",
+    "instructor": "이민수",
+    "thumbnail": "/images/python-course.jpg",
+    "duration": "10주",
+    "enrollmentCount": 980
+  },
+  {
+    "Id": 3,
+    "title": "UI/UX 디자인 입문",
+    "description": "사용자 중심의 디자인 사고와 실무 스킬을 함께 익혀보세요.",
+    "instructor": "박서연",
+    "thumbnail": "/images/uiux-course.jpg",
+    "duration": "8주",
+    "enrollmentCount": 750
+  },
+  {
+    "Id": 4,
+    "title": "Node.js 백엔드 개발",
+    "description": "Node.js와 Express를 활용한 서버 개발의 모든 것을 배워보세요.",
+    "instructor": "최동훈",
+    "thumbnail": "/images/nodejs-course.jpg",
+    "duration": "14주",
+    "enrollmentCount": 650
+  },
+  {
+    "Id": 5,
+    "title": "머신러닝 기초",
+    "description": "수학적 기초부터 실제 모델 구현까지 체계적으로 학습합니다.",
+    "instructor": "정유진",
+    "thumbnail": "/images/ml-course.jpg",
+    "duration": "16주",
+    "enrollmentCount": 520
+  },
+  {
+    "Id": 6,
+    "title": "모바일 앱 개발",
+    "description": "React Native를 활용한 크로스플랫폼 모바일 앱 개발을 배워보세요.",
+    "instructor": "황민철",
+    "thumbnail": "/images/mobile-course.jpg",
+    "duration": "12주",
+    "enrollmentCount": 430
+  }
+]
