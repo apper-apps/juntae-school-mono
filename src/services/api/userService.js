@@ -93,5 +93,3 @@ class UserService {
 // Create and export service instance
 const userService = new UserService();
 export default userService;
-
-export default new UserService();
